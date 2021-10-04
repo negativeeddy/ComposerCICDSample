@@ -16,9 +16,9 @@ The CI/CD sample has 3 stages: Build, DeployDev, and DeployProd. The build stage
 
 **NOTE:** The current sample does not build/publish QnA models.
 
-Each stage requires the following variables to be set. It is recommended to have two variable groups for each stage, a regular variable group and a secret group that is loaded from Azyre KeyVault.
+Each stage requires the following variables to be set. It is recommended to have two variable groups for each stage, a regular variable group and a secret group that is loaded from Azure KeyVault.
 
-The samples groups are named "Secure Bot Dev Variables" and "Secure Bot Dev Secrets" for the dev stage and "Secure Bot Prod Variables" and "Secure Bot Prod Secrets" for the prod stage.
+The sample's groups are named "Secure Bot Dev Variables" and "Secure Bot Dev Secrets" for the dev stage and "Secure Bot Prod Variables" and "Secure Bot Prod Secrets" for the prod stage. If using different names in your pipeline, be sure to update the buildAndDeploy.yaml file with the correct variable group names.
 
 ### Main variable group
 
@@ -29,7 +29,7 @@ botName                | used for LUIS/QnA model names
 botProjectDirectory    | the path to the bot's project folder in your repo
 botProjectName         | the name of the bot project file (without the file extension)
 cosmosDBEndpoint       | e.g. https://contosodb.documents.azure.com:443/
-environmentName        | the name of the environment/stage. Used for LUIS/QnA Model names
+environmentName        | the name of the environment/stage. Used for LUIS/QnA Model names e.g. dev or prod
 luisAuthoringRegion    | e.g. west-us
 luisEndpoint           | the LUIS prediction endpoint e.g. https://westus.api.cognitive.microsoft.com
 microsoftAppId         | the bot's Microsoft App Id
