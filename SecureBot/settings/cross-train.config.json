@@ -1,0 +1,12 @@
+{
+  "SecureBot.en-us": {
+    "rootDialog": true,
+    "triggers": {
+      "Hello": "",
+      "ChannelInfo": [
+        "ChannelInfo.en-us"
+      ],
+      "Settings": ""
+    }
+  }
+}

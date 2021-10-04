@@ -1,0 +1,40 @@
+[import](common.lg)
+
+# SendActivity_Greeting()
+[Activity
+    Text = ${SendActivity_Greeting_text()}
+]
+
+# SendActivity_Greeting_text()
+- Welcome to your bot.
+
+# SendActivity_DidNotUnderstand()
+[Activity
+    Text = ${SendActivity_DidNotUnderstand_text()}
+]
+
+# SendActivity_DidNotUnderstand_text()
+- Sorry, I didn't get that. Try again
+# SendActivity_noQ4Mi()
+[Activity
+    Text = ${SendActivity_noQ4Mi_text()}
+]
+
+# SendActivity_noQ4Mi_text()
+- Hi
+- Hello
+- Good day
+# SendActivity_JMTvfB()
+[Activity
+    Text = ${SendActivity_JMTvfB_text()}
+]
+
+# SendActivity_JMTvfB_text()
+- ${settings}
+# SendActivity_L5AU5A()
+[Activity
+    Text = ${SendActivity_L5AU5A_text()}
+]
+
+# SendActivity_L5AU5A_text()
+- What else can I do for you?

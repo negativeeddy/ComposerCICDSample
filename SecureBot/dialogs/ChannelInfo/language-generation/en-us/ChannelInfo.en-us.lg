@@ -1,0 +1,9 @@
+[import](common.lg)
+
+# SendActivity_0aIVmD_text()
+- ```you are talking to me via ${turn.activity.channelId} and your from info is 
+${turn.activity.from}```
+# SendActivity_0aIVmD()
+[Activity
+    Text = ${SendActivity_0aIVmD_text()}
+]
