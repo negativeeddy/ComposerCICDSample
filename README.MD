@@ -41,7 +41,7 @@ qnaSubscriptionKey     | not currently used
 resourceGroupName      | the name of the Azure Resource Group
 webAppName             | name of the Azure App Service
 
-### Secrets Variable Group (stored in keyvault)**
+### Secrets Variable Group (stored in keyvault)
 
 secret                       | description
 ------                       | -----------
